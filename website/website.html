@@ -12,9 +12,49 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/styles.css" />
+        <script src="js/scripts.js"></script>
         
     </head>
     <!-- Navbar Section -->
+    <!-- Navbar Remake using Bootstrap -->
+    <nav class="navbar navbar-light fixed-top navbar-expand-md mb-3" style="background-color: cornflowerblue">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-brand mr-3"><h1>Long Huynh</h1></a>
+            <button 
+                class="navbar-toggler collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div 
+                class="collapse navbar-collapse"
+                id="navbarSupportedContent"
+            >
+            
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#about"><h2>About</h2></a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#resume"><h2>Resume</h2></a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#projects"><h2>Projects</h2></a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#contact"><h2>Contact Me</h2></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Old Navbar
     <header id="navbar">
         <nav class="navbar-container container">
             <a href="#home" class="link-home">
@@ -47,12 +87,20 @@
 
         </nav>
     </header>
-    
+    -->
     <main>
         <!-- About me -->
         <div id="home" class="content">
             <div class="about-container">
                 <h3 id="about">ABOUT ME</h3>
+                <img 
+                    class="about-img" 
+                    src="images/Discord Profile.png" 
+                    alt="Discord Profile Picture"
+                    height = 150px;
+                    width = 150px;
+                >
+
                 <p>
                     Hello, I'm Long, a senior in Portland State University, currently majoring
                     in Computer Science. Before my enrollment, I graduated from 
