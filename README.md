@@ -1,5 +1,5 @@
 # CS410-Website
-Repository for my website for PSU's CS410 Web Design Class
+Repository for my website for PSU's CS410 Web Design Class.
 You can run the code using VSCode by cloning or downloading the repo manually,
 and pressing run on the index.html file. 
 
