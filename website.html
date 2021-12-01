@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="items" content="about, resume, navbar, projects, contact">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Long Huynh">
+        <title>Long Huynh</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="js/scripts.js"></script>
+        
+    </head>
+    <!-- Navbar Section -->
+    <!-- Navbar Remake using Bootstrap -->
+    <nav class="navbar navbar-light fixed-top navbar-expand-md mb-3" style="background-color: cornflowerblue">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-brand mr-3"><h1>Long Huynh</h1></a>
+            <button 
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div 
+                class="collapse navbar-collapse"
+                id="navbarSupportedContent"
+            >
+            
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#about"><h2>About</h2></a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#resume"><h2>Resume</h2></a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#projects"><h2>Projects</h2></a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#contact"><h2>Contact Me</h2></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Old Navbar
+    <header id="navbar">
+        <nav class="navbar-container container">
+            <a href="#home" class="link-home">
+                <h1>Long Huynh</h1>
+            </a>
+            <div class="navbar-menu">
+                <ul class="navbar-links">
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#about">
+                            <h2>About</h2>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#resume">
+                            <h2>Resume</h2>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#projects">
+                            <h2>Projects</h2>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#contact">
+                            <h2>Contact</h2>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    -->
+    <main>
+        <!-- About me -->
+        <div id="home" class="content">
+            <div class="about-container">
+                <h3 id="about">ABOUT ME</h3>
+                <img 
+                    class="about-img" 
+                    src="images/Discord Profile.png" 
+                    alt="Discord Profile Picture"
+                    height = 150px;
+                    width = 150px;
+                >
+
+                <p>
+                    Hello, I'm Long, a senior in Portland State University, currently majoring
+                    in Computer Science. Before my enrollment, I graduated from 
+                    James Madison High School, where I participated in the Computer Science Courses
+                    that had only came out the year prior and also 3D Modeling and Animation courses.
+                    From there, I helped some of my friends
+                    in their FTC robotics club, but I never participated in it directly myself.
+                    During college, I have learnt a lot more about CS design structure and 
+                    programming software correctly to ensure longevity in the future. 
+                    A lot of my focus is towards the gaming sphere and my interest has helped
+                    push me towards completing my Undergraduate degree here at PSU.
+                </p>
+                <p>
+                    Over these years of studying CS, I've continued learning miscellaneous knowledge
+                    as well as learning about potential knowledge I might be required to learn in the 
+                    future when it comes to games. I've studied some Virtual Reality, Networking, and 
+                    Sound Design. VR is definitely the most interesting fieldfor me, because I feel like
+                    in the near future, there is going to be a lot of improvements in the VR field.
+                    Currently, it's hindered by a lack of knowledge, because it's a relative new subject,
+                    but there's a lot of growth related to the field every single year. What's impressive
+                    is seeing all these new VR technologies come out each year and constantly improve.
+                    I think that VR will eventually affect our future a lot, from the way that we learn,
+                    to other potential subjects like how we communicate and speak with each other.
+                </p>
+            </div>
+            <!-- End of the about me -->
+
+            <!-- Resume -->
+            <div class="resume-container">
+                <h3 id="resume">RESUME</h3>
+                <div class="row">
+                    <div class="col-xs-10 col-md-6">
+                     <h2>Education</h2> 
+                     <ul>
+                        <li>
+                            <h3>Portland State University, Oregon</h3>
+                            <p>
+                                
+                                <b>2017-Present</b><br>
+                                <b>CS Major</b><br>
+                                <b>Undergrad</b>
+                            </p>
+                        </li>
+                     </ul>
+                 </div>
+                <div class="col-xs-10 col-md-6">
+                    <h2>Skills</h2>
+                    <ul>
+                        <p>
+                            <b>Python Programming</b><br>
+                            <b>Java Programming</b><br>
+                            <b>Basic 3D Modeling and Animation</b><br>
+                            <b>C++</b><br>
+                            <b>Limited JQuery</b><br>
+                            <b>Javascript</b><br>
+                            <b>Basic Unity Experience</b>
+
+
+                        </p>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End of the Resume-->
+            <!-- Projects -->
+            <div class="projects-container">
+                <h3 id="projects">PROJECTS</h3>
+                <div class="row row-cols-1 row-cols-1g-2 align-items-stretch g-4 py-4">
+                    <div class="col">
+                        <a href="https://github.com/Discord-Sound-Bot/CS410P-510"
+                        style="text-decoration: none">
+                        
+                            <div class="square-image h-100 w-100 text-white bg-dark" id="image1">
+                                <div class="d-flex flex-column h-100 p-5 pb-3">
+                                    <h4 class="pt-4 mt-4 mb-4 display-7 fw-bold">Hey Discord Bot</h2>
+                                    <p2 class="mt-4 mb-5">Speech-to-Text Discord Music Bot that listens to commands</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://drive.google.com/drive/folders/1Lvv6VYoOwnt9tSElgfXvPY0sTIBF64WF?usp=sharing"
+                        style="text-decoration: none">
+                            <div class="square-image h-100 w-100 text-white bg-dark" id="image2">
+                                <div class="d-flex flex-column h-100 p-5 pb-3">
+                                    <h4 class="pt-4 mt-4 mb-4 display-7 fw-bold">Bee Card Game</h2>
+                                    <p2 class="mt-4 mb-5">Card Game made to print out by hand for my Freshman Inquiry Class</p>
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- End of the projects -->
+            <!-- Contact -->
+            
+            <div class="contact-container">
+                <section class="contact-container">
+                    <h3 id="contact">Contact Me</h3>
+                    <form>
+                        <div class="row">
+                            <div class="col-xs-10 col-md-5">
+                                <input 
+                                    type="text" 
+                                    class="form-control form-control-lg"    
+                                    placeholder="Name" 
+                                    maxlength="40" 
+                                    aria-label="Name" 
+                                    required
+                                >
+                            </div>
+                            <div class="col-xs-10 col-md-5">
+                                <input 
+                                    type="text" 
+                                    class="form-control form-control-lg"    
+                                    placeholder="Email" 
+                                    maxlength="50" 
+                                    aria-label="Email" 
+                                    required
+                                >
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-10">
+                                <textarea 
+                                    id="contact-text" 
+                                    class="form-control form-control-lg"
+                                    placeholder="Message here" 
+                                    rows="7"
+                                    aria-label="Message here"
+                                    required
+                                    >
+
+                                </textarea>
+                            </div>
+                            
+                        </div>
+                        <button class="btn btn-primary btn-lg" id="contact-send">Send</button>
+                        <button type="reset" class="btn btn-secondary btn-lg" id="contact-resetbutton">Reset</button>
+                        
+                    </form>
+                </section>
+            </div>
+        </section>
+            <!-- End of the contact -->
+        </div>
+        
+        
+        </div>
+        
+        
+        
+    </main>
+
+</html>
